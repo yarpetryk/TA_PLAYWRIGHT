@@ -38,8 +38,10 @@ pytest -m <mark> [*options]
 options:
 --headed
 --browser [chromium, firefox, webkit]
+--device ["iPhone 13",]
 --screenshot [on, only-on-failure]
 --video [on, retain-on-failure]
+--tracing [on,]
 ```
 
 ### Run an Allure report generation
